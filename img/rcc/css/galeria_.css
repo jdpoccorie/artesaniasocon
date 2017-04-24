@@ -1,0 +1,16 @@
+section .fotos{background:#f2f0f0;padding:2em;overflow:hidden;padding-bottom:3em;}
+section .fotos .titulo_fotos h2{font-family:"letra_corrida";font-size:1.8em;}
+section .fotos .titulo_fotos h2 span{color:#603917}
+section .fotos .categorias{margin:0;overflow:hidden;}
+section .fotos .categorias .categoria{float:left;width:30%;height:8em;padding:2em .9em;}
+section .fotos .categorias .categoria img{float:left;height:90px;margin-right:1em;margin-bottom:1.2em;box-shadow:0 0 20px #000;border:5px solid #ddd;}
+section .fotos .categorias .categoria img:hover{box-shadow:0 0 20px #d59203}
+section .fotos .categorias .categoria .titu_cat{font-weight:bold;font-family:"letra_corrida";font-size:1.3em;color:#603917;}
+section .fotos .categorias .categoria .titu_cat a{text-decoration:none;color:#603917;}
+section .fotos .categorias .categoria .titu_cat a:hover{color:#b74203}
+section .fotos .categorias .categoria .descr_cat{color:#545453;font-size:.8em;margin-top:1em;}
+section .fotos .categorias .categoria .descr_cat a{color:#d59203;font-weight:bold;font-style:italic;}
+section .fotos .categorias .categoria .descr_cat a:hover{color:#e25406;text-decoration:none}
+section .fotos .categorias #cat1{border-bottom:1px solid #ccc}
+section .fotos .categorias #cat2,section .fotos .categorias #cat3{border-left:1px solid #ccc;border-bottom:1px solid #ccc}
+section .fotos .categorias #cat4,section .fotos .categorias #cat5{border-right:1px solid #ccc}

@@ -1,0 +1,15 @@
+section .rooms{background:#f2f0f0;padding:2.5em;padding-top:1em;overflow:hidden;}
+section .rooms .titulo_fotos h2{font-family:"letra_corrida";font-size:1.8em;}
+section .rooms .titulo_fotos h2 span{color:#603917}
+section .rooms .tipo_hab{width:100%;border-top:1px solid #decfc0;padding:1.5em;}
+section .rooms .tipo_hab figure{width:45%;display:inline-block;vertical-align:top;}
+section .rooms .tipo_hab figure img{border-radius:1em;box-shadow:0 0 20px #333}
+section .rooms .tipo_hab #hab_dobles{margin-left:2em}
+section .rooms .tipo_hab .info_habitacion{padding-left:1em;width:45%;display:inline-block;vertical-align:top;}
+section .rooms .tipo_hab .info_habitacion .titu_tipo{font-family:"letra_corrida";font-size:2em;color:#b1432b}
+section .rooms .tipo_hab .info_habitacion .descr_tipo{margin-top:.5em;}
+section .rooms .tipo_hab .info_habitacion .descr_tipo .descripcion span{font-weight:bold}
+section .rooms .tipo_hab .info_habitacion .descr_tipo .listas_serv{width:150px;display:inline-block;vertical-align:top;}
+section .rooms .tipo_hab .info_habitacion .descr_tipo .listas_serv ul{font-size:.9em;margin:.5em}
+section .rooms .tipo_hab .info_habitacion .botones_hab a{display:block;color:#000;margin-top:.5em;padding:.5em;border-radius:.5em;text-align:center;text-decoration:none;background:#edcbc4;font-weight:bold;}
+section .rooms .tipo_hab .info_habitacion .botones_hab a:hover{background:#a63a22;color:#ddd;box-shadow:0 0 10px #000}

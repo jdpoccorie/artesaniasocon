@@ -1,0 +1,18 @@
+.fm_contacts{
+	color:#dadada;font-size:1em;background:#835315;width:65%;padding:2em;border-radius:1em;box-shadow:0 0 25px #333;margin-bottom:2em;position:relative;
+	margin: 2em auto;
+	}
+.fm_contacts .titu_cont{margin-bottom:1em;font-weight:bold;color:#fff;font-size:1.4em;}
+.fm_contacts .titu_cont span{font-weight:bold;font-size:1.5em;color:#cf8209}
+.fm_contacts .compo_cont{display:block;vertical-align:top;margin-top:.5em;margin-left:1em;}
+.fm_contacts .compo_cont input,.fm_contacts .compo_cont textarea{background:#cdcdcc;border:1px solid #848483;padding-left:.5em;color:#333;width:60%}
+.fm_contacts .compo_cont input{height:2.5em; font-size: 1.2em}
+.fm_contacts .compo_cont label{font-size: 1.2em}
+.fm_contacts .compo_cont textarea{height:10em}
+.fm_contacts .compo_cont .peque{width:30%}
+.fm_contacts .compo_cont .estilo_bt{width:10em;font-weight:bold;box-shadow:2px 2px 5px #000;}
+.fm_contacts .compo_cont .estilo_bt:hover{background:#cf8209;color:#000}
+.fm_contacts .compo_cont #ms_c_sending{color:#cf8209;display:none}
+.fm_contacts #datos_de_cont{position:absolute;right:-5em;top:13em;width:27em;background:#333;border-radius:1em;padding:1.5em;font-size:.9em;box-shadow:0 0 15px #000;border:5px solid #835315;}
+.fm_contacts #datos_de_cont p{margin:0;padding:0;}
+.fm_contacts #datos_de_cont p span{color:#f9991f;font-weight:bold}

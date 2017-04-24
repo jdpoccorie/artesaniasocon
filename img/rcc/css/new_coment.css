@@ -1,0 +1,65 @@
+.compo_nc{
+	margin-bottom: 10px;
+}
+
+.cerr_nc{
+	text-align: right;
+}
+
+.cerr_nc a{
+	color: #ddd;
+	text-decoration: none;
+}
+
+.cerr_nc a:hover{
+	color: #000;
+	font-weight: bold;
+}
+
+.nc_centro{
+	text-align: center;
+}
+
+.nc_centro h2{
+	color: #fff;
+}
+
+#fm_coment{
+	height: 530px;
+	width: 300px;
+	background-color: rgba(77,31,3,0.8);
+	border-radius: 1em;
+	position: absolute;
+	top:100px;
+	left:100px;
+	display: none;
+	padding: 20px;
+	font-family: arial;
+	font-size: 14px;
+	color: #fff;
+}
+
+#fm_coment input{
+	width: 93%;
+	height: 1.7em;
+	background-color: #ccc;
+	padding-left: 10px;
+	font-size: 14px;
+}
+
+#fm_coment textarea{
+	width: 96%;
+}
+
+#nc_confirm{
+	background-color: #7d700a;
+	color: #fff;
+	padding: 0.5em;
+	font-weight: bold;
+	border-radius: 0.5em;
+	display: none;
+}
+
+#nc_saving{
+	display: none;
+}

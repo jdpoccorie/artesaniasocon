@@ -1,0 +1,347 @@
+@font-face {
+	font-family: 'letra_corrida';
+	src:url('../fonts3/KaushanScript-Regular.otf');	
+	font-weight: normal;
+	font-style: normal;
+}
+
+body
+	background #210c0b;
+	background-image url('../img/bg_fondo.jpg')	
+	font-size 16px
+	background-repeat repeat-x
+
+header
+	background #f2f0f0
+	width 970px	
+	margin 0 auto
+	margin-top 1em
+	box-shadow 0 0 50px #1e0e0d
+	padding-top 1.5em
+	position relative
+
+	nav
+		text-align center		
+		ul
+			li				
+				display inline-block
+				margin-left 1.5em
+				a
+					color #2e2d2d
+					font-family "letra_corrida"
+					text-decoration none
+					font-size 1.2em
+
+					&:hover
+						color #a33104						
+						text-shadow 0px 1px 1px #fccdc1
+						font-weight bold
+
+	.idiomas
+		position absolute
+		top 10px
+		left 10px
+
+		div
+			display inline-block
+			margin-right 0.2em
+
+			img
+				box-shadow 2px 2px 3px #ed7b16
+
+	.socialbuts
+		position absolute
+		right 10px
+		bottom 10px
+
+		div
+			margin-bottom 0.3em
+
+	#logo
+		border-bottom 1px solid #cdcbcb		
+		padding-bottom 0.5em
+		text-align center
+		position relative
+
+		.logotipo
+			height 150px
+
+	#slyder	
+		padding-top 1em		
+		height 16em
+		border-bottom 1px solid #cdcbcb
+		position relative
+		background #ddd
+
+		img			
+			width 100%						
+			position absolute
+			float left
+
+	#ft_sly2
+		display none
+
+section	
+	background #251d1b
+	width 970px
+	margin 0 auto
+
+	.fts_habitac
+		height 19em
+		background #f2f0f0
+
+		.galeria,.habitaciones
+			display inline-block
+			vertical-align top			
+			padding-left 3%
+			padding-top 2em
+
+			img
+				height 150px				
+
+			.marcoft
+				padding 10px				
+				box-shadow 3px 3px 3px #333
+				height 150px
+				width 200px
+				background #fff
+				float left
+				margin-right 1em
+
+		.galeria
+			border-right 1px solid #cdcbcb
+			width 46%
+
+			span
+				font-weight bold
+				color #b67822
+				font-size 1.1em
+
+				a
+					color #b67822
+					text-decoration none
+
+					&:hover
+						color #901e03
+						text-decoration underline
+
+			#ver_ft
+				text-decoration none				
+				background rgba(190,115,12,0.5)
+				padding 0.5em 1em
+				border-radius 0.5em
+				color #553305
+				box-shadow 0 0 10px #000
+
+				&:hover
+					background rgba(133,37,7,0.8)
+					color #f8d39f
+
+		.habitaciones
+			text-align center
+			width 40%
+
+			p
+				a
+					text-decoration none
+					color #8d2a07
+					font-weight bold
+
+					&:hover
+						background #8d2a07
+						color #ddd
+						border-radius 0.5em
+						padding 0.2em 1em
+						box-shadow 0 0 10px #000
+
+			#tipos_hab
+				font-weight bold
+
+	.comentarios
+		background-image url('../img/bg_fondo2.jpg')				
+		height 7em
+		border-top 3px solid #452f2e
+		border-bottom 3px solid #291b1a
+		padding 1em 2em 
+		position relative
+
+		#titu_coments
+			font-size 1.3em
+			color #e8e7e7
+			font-family 'times new roman'
+			font-weight normal
+			margin-left 2em
+			margin-bottom 0.4em
+
+			span
+				a
+					color #e98a10
+					text-decoration none
+
+					&:hover
+						color yellow
+
+		#descr_coments
+			margin-left 3em
+			margin-right 30em
+			margin-top 0
+			color #e8e7e7 
+			font-size 0.9em
+			font-style italic
+
+			a
+				color #e98a10
+
+				&:hover
+					color yellow 
+
+		img
+			height 11em
+			position absolute
+			right 0px
+			bottom 0px			
+
+	.servicios
+		background #251d1b
+		font-family 'times new roman'
+		padding 2em
+
+		.titu_serv
+			color #dadada
+			font-size 1.1em
+
+		div
+			p
+				color #6d5852
+				font-size 1.2em
+
+		.serv
+			display inline-block
+			vertical-align top
+			width 50%
+			margin-left 3em
+
+			ul
+				display inline-block
+				vertical-align top
+				list-style none
+
+				li
+					font-size 0.9em
+					font-style italic
+					margin-bottom 0.5em
+
+					a
+						color #dadada						
+						text-decoration none
+						border-bottom 1px solid #6d5852
+						display block
+
+						&:hover
+							color #e98a10
+							border-bottom 1px solid #e98a10
+
+
+		.no_includ
+			width 30%
+			border-left 1px solid #6d5852
+			padding-left 2em
+
+	.ubic_contacts
+		background #3a2d2b
+		height 24em
+		padding-left 2%
+
+		.ubicacion, .contactenos			
+			
+			display inline-block
+			vertical-align top
+		.ubicacion
+			width 50%
+			text-align center
+
+			iframe
+				width 100%
+
+			a
+				color #cf8209
+				font-weight bold
+				display block
+				padding 0.3em 1em;			
+
+				&:hover
+					color #fff
+					text-decoration none
+					background #29201f
+					border-radius 0.5em
+
+		.contactenos
+			width 45%
+			padding-left 2%
+
+footer
+	background #251d1b
+	width 940px	
+	margin 0 auto
+	height 5.5em	
+	margin-bottom 2em
+	font-size 0.8em
+	padding 1%
+	color #594542
+	
+	#foot_titu
+		height 1.5em
+		width 100%
+		font-weight bold
+	
+	#foot_left, #foot_right
+		height 2.5em
+		width 40%
+		display inline-block
+
+	#foot_right
+		margin-left 15%
+		text-align right
+
+#aclaracion
+	position absolute
+	padding 0.5em 1em
+	background #c6690f
+	display none
+	color #fff
+	border-radius 0.5em
+	box-shadow 4px 4px 8px #9a9898
+	font-size 0.8em
+
+
+@media screen and (max-width: 1280px)
+	header
+		#slyder				
+			height 16.5em
+
+@media screen and (max-width: 1024px)
+	header
+		#slyder
+			padding-top 0.7em			
+			height 13.3em
+
+@media screen and (max-width: 768px)
+	header
+		#slyder
+			padding-top 0.5em		
+			height 10em
+
+@media screen and (max-width: 640px)
+	header
+		#slyder			
+			height 8.4em
+
+@media screen and (max-width: 480px)
+	header
+		#slyder			
+			height 6.4em
+
+@media screen and (max-width: 320px)
+	header
+		#slyder			
+			height 4.4em

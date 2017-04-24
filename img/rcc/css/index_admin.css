@@ -1,0 +1,30 @@
+body{
+	background-color: #ddd;
+	font-family: verdana;
+}
+
+footer{
+	margin-top: 2em;
+	font-size: 0.6em;
+	width: 100%;
+	text-align: right;
+}
+
+.mensaje{
+	display: none;
+	padding: 1em 0;
+	color: red;
+}
+
+#contenido{
+	width: 50%;
+	margin: 5em auto;
+	background-color: #ccc;
+	padding: 1.5em;
+	border-radius: 1em;
+	box-shadow: 5px 5px 10px #333;
+}
+
+#logot img{
+	height: 150px;
+}

@@ -1,0 +1,68 @@
+@font-face{font-family:'letra_corrida';src:url("../fonts3/KaushanScript-Regular.otf");font-weight:normal;font-style:normal}
+body{background:#210c0b;background-image:url("../img/bg_fondo.jpg");font-size:16px;background-repeat:repeat-x}
+header{background:#f2f0f0;width:970px;margin:0 auto;margin-top:1em;box-shadow:0 0 50px #1e0e0d;padding-top:1.5em;position:relative;}
+header nav{text-align:center;}
+header nav ul li{display:inline-block;margin-left:1.5em;}
+header nav ul li a{color:#2e2d2d;font-family:"letra_corrida";text-decoration:none;font-size:1.2em;}
+header nav ul li a:hover{color:#a33104;text-shadow:0 1px 1px #fccdc1;font-weight:bold}
+header .idiomas{position:absolute;top:10px;left:10px;}
+header .idiomas div{display:inline-block;margin-right:.2em;}
+header .idiomas div img{box-shadow:2px 2px 3px #ed7b16}
+header .socialbuts{position:absolute;right:10px;bottom:10px;}
+header .socialbuts div{margin-bottom:.3em}
+header #logo{border-bottom:1px solid #cdcbcb;padding-bottom:.5em;text-align:center;position:relative;}
+header #logo .logotipo{height:150px}
+header #slyder{padding-top:1em;height:16em;border-bottom:1px solid #cdcbcb;position:relative;background:#ddd;}
+header #slyder img{width:100%;position:absolute;float:left}
+header #ft_sly2{display:none}
+section{background:#251d1b;width:970px;margin:0 auto;}
+section .fts_habitac{height:19em;background:#f2f0f0;}
+section .fts_habitac .galeria,section .fts_habitac .habitaciones{display:inline-block;vertical-align:top;padding-left:3%;padding-top:2em;}
+section .fts_habitac .galeria img,section .fts_habitac .habitaciones img{height:150px}
+section .fts_habitac .galeria .marcoft,section .fts_habitac .habitaciones .marcoft{padding:10px;box-shadow:3px 3px 3px #333;height:150px;width:200px;background:#fff;float:left;margin-right:1em}
+section .fts_habitac .galeria{border-right:1px solid #cdcbcb;width:46%;}
+section .fts_habitac .galeria span{font-weight:bold;color:#b67822;font-size:1.1em;}
+section .fts_habitac .galeria span a{color:#b67822;text-decoration:none;}
+section .fts_habitac .galeria span a:hover{color:#901e03;text-decoration:underline}
+section .fts_habitac .galeria #ver_ft{text-decoration:none;background:rgba(190,115,12,0.5);padding:.5em 1em;border-radius:.5em;color:#553305;box-shadow:0 0 10px #000;}
+section .fts_habitac .galeria #ver_ft:hover{background:rgba(133,37,7,0.8);color:#f8d39f}
+section .fts_habitac .habitaciones{text-align:center;width:40%;}
+section .fts_habitac .habitaciones p a{text-decoration:none;color:#8d2a07;font-weight:bold;}
+section .fts_habitac .habitaciones p a:hover{background:#8d2a07;color:#ddd;border-radius:.5em;padding:.2em 1em;box-shadow:0 0 10px #000}
+section .fts_habitac .habitaciones #tipos_hab{font-weight:bold}
+section .comentarios{background-image:url("../img/bg_fondo2.jpg");height:7em;border-top:3px solid #452f2e;border-bottom:3px solid #291b1a;padding:1em 2em;position:relative;}
+section .comentarios #titu_coments{font-size:1.3em;color:#e8e7e7;font-family:'times new roman';font-weight:normal;margin-left:2em;margin-bottom:.4em;}
+section .comentarios #titu_coments span a{color:#e98a10;text-decoration:none;}
+section .comentarios #titu_coments span a:hover{color:#ff0}
+section .comentarios #descr_coments{margin-left:3em;margin-right:30em;margin-top:0;color:#e8e7e7;font-size:.9em;font-style:italic;}
+section .comentarios #descr_coments a{color:#e98a10;}
+section .comentarios #descr_coments a:hover{color:#ff0}
+section .comentarios img{height:11em;position:absolute;right:0;bottom:0}
+section .servicios{background:#251d1b;font-family:'times new roman';padding:2em;}
+section .servicios .titu_serv{color:#dadada;font-size:1.1em}
+section .servicios div p{color:#6d5852;font-size:1.2em}
+section .servicios .serv{display:inline-block;vertical-align:top;width:50%;margin-left:3em;}
+section .servicios .serv ul{display:inline-block;vertical-align:top;list-style:none;}
+section .servicios .serv ul li{font-size:.9em;font-style:italic;margin-bottom:.5em;}
+section .servicios .serv ul li a{color:#dadada;text-decoration:none;border-bottom:1px solid #6d5852;display:block;}
+section .servicios .serv ul li a:hover{color:#e98a10;border-bottom:1px solid #e98a10}
+section .servicios .no_includ{width:30%;border-left:1px solid #6d5852;padding-left:2em}
+section .ubic_contacts{background:#3a2d2b;height:24em;padding-left:2%;}
+section .ubic_contacts .ubicacion,section .ubic_contacts .contactenos{display:inline-block;vertical-align:top}
+section .ubic_contacts .ubicacion{width:50%;text-align:center;}
+section .ubic_contacts .ubicacion iframe{width:100%}
+section .ubic_contacts .ubicacion a{color:#cf8209;font-weight:bold;display:block;padding:.3em 1em;}
+section .ubic_contacts .ubicacion a:hover{color:#fff;text-decoration:none;background:#29201f;border-radius:.5em}
+section .ubic_contacts .contactenos{width:45%;padding-left:2%}
+footer{background:#251d1b;width:940px;margin:0 auto;height:5.5em;margin-bottom:2em;font-size:.8em;padding:1%;color:#594542;}
+footer #foot_titu{height:1.5em;width:100%;font-weight:bold}
+footer #foot_left,footer #foot_right{height:2.5em;width:40%;display:inline-block}
+footer #foot_right{margin-left:15%;text-align:right}
+#aclaracion{position:absolute;padding:.5em 1em;background:#c6690f;display:none;color:#fff;border-radius:.5em;box-shadow:4px 4px 8px #9a9898;font-size:.8em}
+@media screen and (max-width: 1280px){header #slyder{height:16.5em}
+}@media screen and (max-width: 1024px){header #slyder{padding-top:.7em;height:13.3em}
+}@media screen and (max-width: 768px){header #slyder{padding-top:.5em;height:10em}
+}@media screen and (max-width: 640px){header #slyder{height:8.4em}
+}@media screen and (max-width: 480px){header #slyder{height:6.4em}
+}@media screen and (max-width: 320px){header #slyder{height:4.4em}
+}

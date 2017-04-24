@@ -1,0 +1,11 @@
+#todos_coments{height:100%;overflow:hidden;}
+#todos_coments .un_comentario{background:#cf760d;width:93%;float:left;margin-top:1em;padding:2em;border-radius:1em;font-family:arial;}
+#todos_coments .un_comentario p{margin:0}
+#todos_coments .un_comentario .su_coment{font-style:italic;color:#fff}
+#todos_coments .un_comentario .su_nombre{color:#000}
+#todos_coments .un_comentario .su_ocupacion{font-style:italic;font-size:.9em;color:#ddd}
+#todos_coments .un_comentario .sus_datos{font-size:.9em;margin-left:2em;color:#ddd}
+#todos_coments .un_comentario .su_pais{color:#000}
+#todos_coments .add_new{background:#3a2d2b;width:93%;float:left;margin-top:1em;padding:2em;font-family:arial;text-align:center;}
+#todos_coments .add_new a{background:#ddd;padding:.5em 1em;margin:2em;border-radius:.5em;height:5em;text-decoration:none;}
+#todos_coments .add_new a:hover{background:#cf760d;box-shadow:5px 5px 10px #000;color:#fff}

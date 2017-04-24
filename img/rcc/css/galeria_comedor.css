@@ -1,0 +1,9 @@
+@font-face{font-family:'icomoon';src:url("../fonts3/icomoon.eot");src:url("../fonts3/icomoon.eot?#iefix") format('embedded-opentype'),url("../fonts3/icomoon.ttf") format('truetype'),url("../fonts3/icomoon.woff") format('woff'),url("../fonts3/icomoon.svg#icomoon") format('svg');font-weight:normal;font-style:normal}
+section .fotos{background:#f2f0f0;padding:1.5em 0 .5em 1em;overflow:hidden;padding-bottom:3em;}
+section .fotos .titulo_fotos h2{font-family:"letra_corrida";font-size:1.8em;}
+section .fotos .titulo_fotos h2 span{color:#603917}
+section .fotos .las_fotos{margin-left:5em}
+section .fotos .volver{text-align:center;width:100%;background:#ccc;padding:.5em 0;}
+section .fotos .volver a{color:#903903;font-size:1.3em;text-decoration:none;font-weight:bold;}
+section .fotos .volver a:before{content:"\e600";font-family:"icomoon";font-size:2em}
+section .fotos .volver a:hover{color:#0c57a4;font-weight:bold}

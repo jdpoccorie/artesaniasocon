@@ -1,0 +1,68 @@
+
+.comp_form{
+	margin-bottom: 10px;
+}
+
+.cerrar{
+	text-align: right;
+}
+
+.cerrar a{
+	color: #ddd;
+	text-decoration: none;
+}
+
+.cerrar a:hover{
+	color: yellow;
+	font-weight: bold;
+}
+
+.centro{
+	text-align: center;
+}
+
+#lk_tour_prom{
+	color: #fff;
+	text-decoration: none;
+}
+
+#panel_mail{
+	height: 380px;
+	width: 300px;
+	background-color: rgba(77,31,3,0.8);
+	border-radius: 1em;
+	position: absolute;
+	top:100px;
+	left:100px;
+	display: none;
+	padding: 20px;
+	font-family: arial;
+	font-size: 14px;
+	color: #fff;
+}
+
+#panel_mail input{
+	width: 94%;
+	height: 1.7em;
+	background-color: #ccc;
+	padding-left: 10px;
+	font-size: 14px;
+	border: 1px solid #333;
+}
+
+
+#msg_recomdar{
+	width: 89%;
+	border: 1px solid #f8ca94;
+	border-radius: 1em;
+	height: 5em;
+	padding: 1em;
+	color: #f8ca94;
+}
+
+#msg_confirm{	
+	background-color: #333;
+	padding: 0.3em;
+	border-radius: 1em;	
+	display: none;
+}
